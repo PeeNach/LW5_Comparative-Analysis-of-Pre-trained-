@@ -112,25 +112,3 @@ If I deployed an inaccurate model like my broken EfficientNetB0, it could miside
 
 **18. How can this system be integrated into a mobile/web app?**  
 I can convert my trained `.keras` model into TensorFlow Lite format. This would allow me to embed the model directly into a smartphone application (like Android/iOS) so users could point their camera at a plant and get real-time identification without needing an internet connection.
-
----
-
-## 🛠️ Technologies Used
-
-| Tool | Purpose |
-|---|---|
-| Python 3.12 | Programming language |
-| TensorFlow / Keras 3.x | Model building and training |
-| Scikit-learn | Evaluation metrics |
-| OpenCV (cv2) | Grad-CAM heatmap overlay |
-| Matplotlib | Visualization |
-| Google Colab | Cloud GPU training environment |
-| Google Drive | Dataset and model storage |
-| Teachable Machine | No-code transfer learning baseline |
-
----
-
-## 👤 Author
-
-**Laboratory Work 5**  
-*Comparative Analysis of Pre-trained CNN Models for Custom Image Classification*
